@@ -3,7 +3,7 @@ Theme Name: Тихо — магазин вещей для дома
 Theme URI: https://example.com/tikho-shop
 Author: Arena
 Description: Лёгкая авторская тема магазина товаров для дома с поддержкой WooCommerce.
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 6.2
 Tested up to: 6.8
 Requires PHP: 7.4
@@ -774,87 +774,89 @@ h1, h2, h3, p { margin-top: 0; }
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
 
-/* Readability pass: lift small labels and supporting copy without changing the layout. */
-body { font-size: 15px; }
-.announcement-bar { font-size: 11px; }
-.eyebrow { font-size: 11px; }
-.primary-nav a, .header-action-label { font-size: 12px; }
-.hero-description { font-size: 15px; }
-.hero-note { font-size: 10px; }
-.hero-image-caption { font-size: 10px; }
-.hero-image-caption span:first-child { font-size: 11px; }
-.value-item { font-size: 12px; }
-.section-intro { font-size: 13px; }
-.button, .text-link, .filter-chip, .sort-trigger, .all-products-link { font-size: 12px; }
-.product-label { font-size: 9px; }
-.product-meta { font-size: 10px; }
-.product-title-row h3 { font-size: 20px; }
-.product-price { font-size: 12px; }
-.product-note { font-size: 11px; }
-.story-image-label { font-size: 15px; }
-.story-copy > p:not(.eyebrow), .approach-intro > p:not(.eyebrow) { font-size: 13px; }
-.approach-item h3 { font-size: 21px; }
-.approach-item p { font-size: 11px; }
-.newsletter-copy > p:last-child { font-size: 12px; }
-.newsletter-form small, .newsletter-cf7 .wpcf7-response-output { font-size: 9px; }
-.footer-brand-block > p { font-size: 18px; }
-.footer-column h2 { font-size: 10px; }
-.footer-column a, .footer-kicker, .social-links a { font-size: 11px; }
-.footer-email { font-size: 22px; }
-.footer-bottom { font-size: 9px; }
-.drawer-count { font-size: 13px; }
-.cart-empty h3 { font-size: 25px; }
-.cart-empty p, .cart-empty button, .cart-empty > a { font-size: 11px; }
-.cart-line-info h3 { font-size: 17px; }
-.cart-line-info p { font-size: 10px; }
-.cart-line-price { font-size: 11px; }
-.shipping-progress-top { font-size: 10px; }
-.cart-subtotal { font-size: 12px; }
-.cart-subtotal strong { font-size: 23px; }
-.cart-shipping-note { font-size: 10px; }
-.checkout-secure-note { font-size: 9px; }
-.search-hint, .search-hint button { font-size: 10px; }
-.search-result-message { font-size: 11px; }
-.checkout-intro { font-size: 12px; }
-.checkout-form label { font-size: 10px; }
-.checkout-form input { font-size: 12px; }
-.checkout-form small { font-size: 9px; }
-.toast { font-size: 11px; }
-.woocommerce-notices-wrapper { font-size: 13px; }
-.woocommerce a.button, .woocommerce button.button, .woocommerce input.button { font-size: 11px; }
+/* Readability pass: visibly larger supporting text throughout the store. */
+body { font-size: 16px; }
+.announcement-bar { font-size: 12px; }
+.eyebrow { font-size: 12px; }
+.primary-nav a, .header-action-label { font-size: 13px; }
+.hero-description { font-size: 16px; }
+.hero-note { font-size: 12px; }
+.hero-image-caption { font-size: 11px; }
+.hero-image-caption span:first-child { font-size: 12px; }
+.value-item { font-size: 13px; }
+.section-intro { font-size: 14px; }
+.button, .text-link, .filter-chip, .sort-trigger, .all-products-link { font-size: 13px; }
+.product-label { font-size: 11px; }
+.product-meta { font-size: 12px; }
+.product-title-row h3 { font-size: 22px; }
+.product-price { font-size: 13px; }
+.product-note { font-size: 12px; }
+.story-image-label { font-size: 16px; }
+.story-copy > p:not(.eyebrow), .approach-intro > p:not(.eyebrow) { font-size: 14px; }
+.approach-item h3 { font-size: 22px; }
+.approach-item p { font-size: 14px; }
+.newsletter-copy > p:last-child { font-size: 13px; }
+.newsletter-form small, .newsletter-cf7 .wpcf7-response-output { font-size: 10px; }
+.footer-brand-block > p { font-size: 19px; }
+.footer-column h2 { font-size: 11px; }
+.footer-column a, .footer-kicker, .social-links a { font-size: 12px; }
+.footer-email { font-size: 23px; }
+.footer-bottom { font-size: 10px; }
+.drawer-count { font-size: 14px; }
+.cart-empty h3 { font-size: 27px; }
+.cart-empty p, .cart-empty button, .cart-empty > a { font-size: 13px; }
+.cart-line-info h3 { font-size: 18px; }
+.cart-line-info p { font-size: 12px; }
+.cart-line-price { font-size: 12px; }
+.quantity-control span { font-size: 12px; }
+.shipping-progress-top { font-size: 12px; }
+.cart-subtotal { font-size: 13px; }
+.cart-subtotal strong { font-size: 24px; }
+.cart-shipping-note { font-size: 11px; }
+.checkout-secure-note { font-size: 10px; }
+.search-hint, .search-hint button { font-size: 12px; }
+.search-result-message { font-size: 12px; }
+.checkout-intro { font-size: 13px; }
+.checkout-form label { font-size: 12px; }
+.checkout-form input { font-size: 13px; }
+.checkout-form small { font-size: 10px; }
+.toast { font-size: 12px; }
+.woocommerce-notices-wrapper { font-size: 14px; }
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button { font-size: 12px; }
 
 @media (max-width: 760px) {
-  .announcement-bar { font-size: 9px; }
-  .primary-nav a { font-size: 13px; }
-  .hero-copy .eyebrow { font-size: 10px; }
-  .hero-description { font-size: 13px; }
-  .hero-image-caption { font-size: 9px; }
-  .value-item { font-size: 9px; }
-  .section-intro { font-size: 11px; }
-  .filter-chip { font-size: 10px; }
-  .product-label { font-size: 9px; }
-  .product-meta { font-size: 9px; }
-  .product-title-row h3 { font-size: 17px; }
-  .product-price { font-size: 10px; }
-  .story-copy > p:not(.eyebrow), .approach-intro > p:not(.eyebrow) { font-size: 12px; }
-  .approach-item h3 { font-size: 19px; }
-  .approach-item p { font-size: 10px; }
-  .newsletter-copy > p:last-child { font-size: 11px; }
-  .newsletter-form small, .newsletter-cf7 .wpcf7-response-output { font-size: 8px; }
-  .footer-brand-block > p { font-size: 16px; }
-  .footer-column h2, .footer-kicker { font-size: 9px; }
-  .footer-column a, .social-links a { font-size: 10px; }
-  .footer-email { font-size: 20px; }
-  .footer-bottom { font-size: 8px; }
-  .cart-line-info h3 { font-size: 15px; }
-  .cart-line-info p { font-size: 10px; }
-  .cart-line-price { font-size: 10px; }
-  .search-hint, .search-hint button { font-size: 10px; }
-  .checkout-intro { font-size: 11px; }
-  .checkout-form label { font-size: 10px; }
-  .checkout-form small { font-size: 8px; }
+  .announcement-bar { font-size: 10px; }
+  .primary-nav a { font-size: 14px; }
+  .hero-copy .eyebrow { font-size: 11px; }
+  .hero-description { font-size: 14px; }
+  .hero-note { font-size: 11px; }
+  .hero-image-caption { font-size: 10px; }
+  .value-item { font-size: 10px; }
+  .section-intro { font-size: 12px; }
+  .filter-chip { font-size: 11px; }
+  .product-label { font-size: 10px; }
+  .product-meta { font-size: 10px; }
+  .product-title-row h3 { font-size: 18px; }
+  .product-price { font-size: 11px; }
+  .story-copy > p:not(.eyebrow), .approach-intro > p:not(.eyebrow) { font-size: 13px; }
+  .approach-item h3 { font-size: 20px; }
+  .approach-item p { font-size: 12px; }
+  .newsletter-copy > p:last-child { font-size: 12px; }
+  .newsletter-form small, .newsletter-cf7 .wpcf7-response-output { font-size: 9px; }
+  .footer-brand-block > p { font-size: 17px; }
+  .footer-column h2, .footer-kicker { font-size: 10px; }
+  .footer-column a, .social-links a { font-size: 11px; }
+  .footer-email { font-size: 21px; }
+  .footer-bottom { font-size: 9px; }
+  .cart-line-info h3 { font-size: 16px; }
+  .cart-line-info p { font-size: 11px; }
+  .cart-line-price { font-size: 11px; }
+  .search-hint, .search-hint button { font-size: 11px; }
+  .checkout-intro { font-size: 12px; }
+  .checkout-form label { font-size: 11px; }
+  .checkout-form small { font-size: 9px; }
 }
 @media (max-width: 390px) {
-  .product-title-row h3 { font-size: 15px; }
-  .product-meta { font-size: 8px; }
+  .product-title-row h3 { font-size: 16px; }
+  .product-meta { font-size: 9px; }
 }
